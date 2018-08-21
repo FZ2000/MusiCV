@@ -17,9 +17,9 @@ https://www.tutorialspoint.com/python/python_multithreading.html
 This is a music game that is controlled by finger gesture. All the computer vision algorithms are from opencv library
 """
 
-red_circle_resized = cv2.resize(cv2.imread('red.jpg'), (50, 50))
-green_circle_resized = cv2.resize(cv2.imread('green.jpg'), (50, 50))
-yellow_circle_resized = cv2.resize(cv2.imread('yellow.jpg'), (50, 50))
+red_circle_resized = cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/red.jpg'), (50, 50))
+green_circle_resized = cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/green.jpg'), (50, 50))
+yellow_circle_resized = cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/yellow.jpg'), (50, 50))
 
 
 camera = cv2.VideoCapture(0)
@@ -68,71 +68,70 @@ def init():
                 "starting_pos": [(i, 100) for i in range(60, 366, 60)] + [(i, 100) for i in range(913, 1220, 60)],
                 "on_screen_count": 0,
                 "count": 0,
-                "bg_capture": cv2.VideoCapture("bg.gif"),
-                "normal_bg_capture": cv2.VideoCapture("bg.gif"),
-                "logo": cv2.imread('logo.jpg'),
-                "start_button_static": cv2.imread('start_static.jpg'),
-                "start_button_on": cv2.imread('start_on.jpg'),
-                "setting_button_static": cv2.imread('setting_static.jpg'),
-                "setting_button_on": cv2.imread('setting_on.jpg'),
-                "help_button_static": cv2.imread('help_static.jpg'),
-                "help_button_on": cv2.imread('help_on.jpg'),
-                "quit_button_static": cv2.imread('quit_static.jpg'),
-                "quit_button_on": cv2.imread('quit_on.jpg'),
-                "start_button": cv2.imread('start_static.jpg'),
-                "setting_button": cv2.imread('setting_static.jpg'),
-                "help_button": cv2.imread('help_static.jpg'),
-                "quit_button": cv2.imread('quit_static.jpg'),
-                "smoke": cv2.resize(cv2.imread('smoke.jpg'), (50, 50)),
+                "bg_capture": cv2.VideoCapture("/Users/frank/Documents/GitHub/MusiCV/pic/bg.gif"),
+                "normal_bg_capture": cv2.VideoCapture("/Users/frank/Documents/GitHub/MusiCV/pic/bg.gif"),
+                "logo": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/logo.jpg'),
+                "start_button_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/start_static.jpg'),
+                "start_button_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/start_on.jpg'),
+                "setting_button_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/setting_static.jpg'),
+                "setting_button_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/setting_on.jpg'),
+                "help_button_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help_static.jpg'),
+                "help_button_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help_on.jpg'),
+                "quit_button_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/quit_static.jpg'),
+                "quit_button_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/quit_on.jpg'),
+                "start_button": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/start_static.jpg'),
+                "setting_button": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/setting_static.jpg'),
+                "help_button": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help_static.jpg'),
+                "quit_button": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/quit_static.jpg'),
+                "smoke": cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/smoke.jpg'), (50, 50)),
                 "threshold": 60,
                 "show_setting_menu": False,
                 "end": False,
-                "song_name_sup_static": cv2.imread('sup_logo.jpg'),
-                "song_name_faded_static": cv2.imread('faded_logo.jpg'),
-                "song_name_sup": cv2.imread('sup_logo.jpg'),
-                "song_name_faded": cv2.imread('faded_logo.jpg'),
-                "song_name_sup_on": cv2.imread('sup_logo_on.jpg'),
-                "song_name_faded_on": cv2.imread('faded_logo_on.jpg'),
-                "bgm": "Super Mario Bros. - Full.wav",
+                "song_name_sup_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/sup_logo.jpg'),
+                "song_name_faded_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/faded_logo.jpg'),
+                "song_name_sup": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/sup_logo.jpg'),
+                "song_name_faded": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/faded_logo.jpg'),
+                "song_name_sup_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/sup_logo_on.jpg'),
+                "song_name_faded_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/faded_logo_on.jpg'),
+                "bgm": "/Users/frank/Documents/GitHub/MusiCV/audio/Super Mario Bros. - Full.wav",
                 "pre_process_blur_switch": True,
                 "pre_process_blur_algo": "bila",
                 "remove_bg_blur_switch": True,
                 "remove_bg_blur_algo": "2dco",
                 "setting_menu_display": "orig",
-                "previous_page_on": cv2.imread('previous_page_on.jpg'),
-                "previous_page_static": cv2.imread('previous_page_static.jpg'),
-                "next_page_on": cv2.imread('next_page_on.jpg'),
-                "next_page_static": cv2.imread('next_page_static.jpg'),
-                "quit_on": cv2.imread('quit_on, jpg'),
-                "quit_static": cv2.imread('quit_static.jpg'),
-                "return_to_m_on": cv2.imread('return_to_m_on.jpg'),
-                'return_to_m_static': cv2.imread('return_to_m_static.jpg'),
-                "previous_page": cv2.imread('previous_page_static.jpg'),
-                "next_page": cv2.imread('next_page_static.jpg'),
-                "quit": cv2.imread('quit_static.jpg'),
-                'return_to_m': cv2.imread('return_to_m_static.jpg'),
-                'help1': cv2.resize(cv2.imread('help1.jpg'), (1280, 720)),
-                'help2': cv2.resize(cv2.imread('help2.jpg'), (1280, 720)),
-                'help3': cv2.resize(cv2.imread('help3.jpg'), (1280, 720)),
-                'help4': cv2.resize(cv2.imread('help4.jpg'), (1280, 720)),
-                'help5': cv2.resize(cv2.imread('help5.jpg'), (1280, 720)),
-                'help_curr_page': cv2.resize(cv2.imread('help1.jpg'), (1280, 720)),
+                "previous_page_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/previous_page_on.jpg'),
+                "previous_page_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/previous_page_static.jpg'),
+                "next_page_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/next_page_on.jpg'),
+                "next_page_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/next_page_static.jpg'),
+                "quit_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/quit_on, jpg'),
+                "quit_static": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/quit_static.jpg'),
+                "return_to_m_on": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/return_to_m_on.jpg'),
+                'return_to_m_static': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/return_to_m_static.jpg'),
+                "previous_page": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/previous_page_static.jpg'),
+                "next_page": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/next_page_static.jpg'),
+                "quit": cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/quit_static.jpg'),
+                'return_to_m': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/return_to_m_static.jpg'),
+                'help1': cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help1.jpg'), (1280, 720)),
+                'help2': cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help2.jpg'), (1280, 720)),
+                'help3': cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help3.jpg'), (1280, 720)),
+                'help4': cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help4.jpg'), (1280, 720)),
+                'help5': cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help5.jpg'), (1280, 720)),
+                'help_curr_page': cv2.resize(cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/help1.jpg'), (1280, 720)),
                 'help_curr_page_num': 1,
                 'show_help': False,
                 'frame_rate': 20,
-                'lightning_cap': cv2.VideoCapture('lightning.gif'),
+                'lightning_cap': cv2.VideoCapture('/Users/frank/Documents/GitHub/MusiCV/pic/lightning.gif'),
                 'start_time' : -1,
                 'multi_player_mode': False,
-                'multi': cv2.imread('multi_static.jpg'),
-                'single': cv2.imread('single_static.jpg'),
-                'multi_static': cv2.imread('multi_static.jpg'),
-                'single_static': cv2.imread('single_static.jpg'),
-                'multi_on': cv2.imread('multi_on.jpg'),
-                'single_on': cv2.imread('single_on.jpg'),
+                'multi': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/multi_static.jpg'),
+                'single': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/single_static.jpg'),
+                'multi_static': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/multi_static.jpg'),
+                'single_static': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/single_static.jpg'),
+                'multi_on': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/multi_on.jpg'),
+                'single_on': cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/single_on.jpg'),
                 'show_mode_selection': False,
                 "score_second_player": 0,
                 "end_music" : False,
-                "watch_dog": cv2.VideoCapture("watch_dog.mp4")
                 }
     data = data_orig
 
@@ -209,7 +208,7 @@ def over_button(event,x,y,flags,param):
             data["show_song_menu"] = False
             data["show_mode_selection"] = True
             data["show_main_game"] = True
-            data["bgm"] = "Super Mario Bros. - Full.wav"
+            data["bgm"] = "/Users/frank/Documents/GitHub/MusiCV/audio/Super Mario Bros. - Full.wav"
             data["beat_times"] = data["beat_times_sup"]
     elif (x in range(data["width"]//2-len(data["song_name_faded"][0])//2,
                      data["width"]//2+len(data["song_name_faded"][0])//2)
@@ -220,7 +219,7 @@ def over_button(event,x,y,flags,param):
             data["show_song_menu"] = False
             data["show_mode_selection"] = True
             data["beat_times"] = data["beat_times_faded"]
-            data["bgm"] = "Faded-2.wav"
+            data["bgm"] = "/Users/frank/Documents/GitHub/MusiCV/audio/Faded-2.wav"
     elif (x in range(data["width"] - len(data["next_page"][0]), data["width"])
           and y in range(data["height"]-len(data["next_page"]), data["height"])
           and data["show_help"] is True
@@ -283,7 +282,7 @@ def over_button(event,x,y,flags,param):
 def get_song_menu():
     _, window = data["bg_capture"].read()
     if window is None:
-        window = repeat("bg_capture", 'bg.gif')
+        window = repeat("bg_capture", '/Users/frank/Documents/GitHub/MusiCV/pic/bg.gif')
     overlay(window, data["song_name_sup"], 241, data["width"]//2-len(data["song_name_sup"][0])//2)
     overlay(window, data["song_name_faded"], 508, data["width"] // 2 - len(data["song_name_faded"][0]) // 2)
     return window
@@ -295,9 +294,9 @@ def get_starting_window():
     _, window = data["bg_capture"].read()
 
     if window is None:
-        window = repeat("bg_capture", 'bg.gif')
+        window = repeat("bg_capture", '/Users/frank/Documents/GitHub/MusiCV/pic/bg.gif')
 
-    logo = cv2.imread('logo.jpg')
+    logo = cv2.imread('/Users/frank/Documents/GitHub/MusiCV/pic/logo.jpg')
     window[176:295, 402:878] = logo
     overlay(window, data["start_button"], 295, data["width"]//2-len(data["start_button"][0])//2)
     overlay(window, data["setting_button"], 370, data["width"]//2-len(data["setting_button"][0])//2)
@@ -326,7 +325,7 @@ def get_mode_window():
     _, window = data["bg_capture"].read()
 
     if window is None:
-        window = repeat("bg_capture", 'bg.gif')
+        window = repeat("bg_capture", '/Users/frank/Documents/GitHub/MusiCV/pic/bg.gif')
 
     overlay(window, data["single"], 241, data["width"] // 2 - len(data["single"][0]) // 2)
     overlay(window, data["multi"], 508, data["width"] // 2 - len(data["multi"][0]) // 2)
@@ -862,15 +861,13 @@ def main_game(music):
 
             if int(time_elapse) in range(53, 97):
                 data["bg_capture"] = data["lightning_cap"]
-            elif int(time_elapse) in range(155, 195):
-                data["bg_capture"] = data["watch_dog"]
 
             ret, window = data["bg_capture"].read()
 
             if window is None:
                 data["bg_capture"].release()
-                data["lightning_cap"] = cv2.VideoCapture("lightning.gif")
-                data["normal_bg_capture"] = cv2.VideoCapture("bg.gif")
+                data["lightning_cap"] = cv2.VideoCapture("/Users/frank/Documents/GitHub/MusiCV/pic/lightning.gif")
+                data["normal_bg_capture"] = cv2.VideoCapture("/Users/frank/Documents/GitHub/MusiCV/pic/bg.gif")
                 if int(time_elapse) in range(55, 97):
                     data["bg_capture"] = data["lightning_cap"]
                 else:

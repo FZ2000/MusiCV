@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="193172b4-b3ba-464b-8bfd-9c89d3b917ce" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Faded-2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Super Mario Bros. - Full.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faded_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faded_logo_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightning.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplayer 1.2.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next_page_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next_page_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous_page_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous_page_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quit_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quit_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/red.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/return_to_m_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/return_to_m_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smoke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup_logo_on.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yellow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yellow.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="multiplayer 1.2.1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multiplayer 1.2.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MusiCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusiCV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusiCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusiCV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="193172b4-b3ba-464b-8bfd-9c89d3b917ce" name="Default" comment="" />
+      <created>1534855606347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534855606347</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="975" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/multiplayer 1.2.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
