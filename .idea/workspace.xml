@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193172b4-b3ba-464b-8bfd-9c89d3b917ce" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Faded-2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Super Mario Bros. - Full.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faded_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faded_logo_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/green.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightning.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplayer 1.2.1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next_page_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next_page_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/previous_page_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/previous_page_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quit_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quit_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/red.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/return_to_m_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/return_to_m_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smoke.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_static.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup_logo_on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,12 +11,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MusiCV$multiplayer_1_2_1.coverage" NAME="multiplayer 1.2.1 Coverage Results" MODIFIED="1536860119470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="multiplayer 1.2.1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/multiplayer 1.2.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-217">
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -127,6 +88,32 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="multiplayer 1.2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusiCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/multiplayer 1.2.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.multiplayer 1.2.1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,26 +132,26 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +164,24 @@
     <entry file="file://$PROJECT_DIR$/src/multiplayer 1.2.1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplayer 1.2.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplayer 1.2.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
